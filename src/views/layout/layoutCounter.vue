@@ -3,7 +3,6 @@ import { Promotion, User, Crop, SwitchButton, CaretBottom } from '@element-plus/
 import { ref } from 'vue'
 import { useRouter } from 'vue-router'
 
-
 const router = useRouter()
 const keydata = ref('测试')
 const handleCommand = async (key) => {
